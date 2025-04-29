@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lugares de Comida - Cuquío</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #f8aa02, #f70f0f);
+      color: #333;
+    }
+
+    header {
+      background-color: #4fa6c4;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+      color: white;
+      letter-spacing: 4px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .icono-esquina {
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      top: 15px;
+      border-radius: 50%;
+      object-fit: cover;
+      transition: transform 0.2s;
+    }
+
+    .icono-esquina:hover {
+      transform: scale(1.1);
+    }
+
+    .izquierda {
+      left: 15px;
+    }
+
+    .derecha {
+      right: 15px;
+    }
+
+    .contenido {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .lugar {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    .lugar h2 {
+      font-size: 28px;
+      color: #4fa6c4;
+    }
+
+    .lugar p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    .lugar img {
+      width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin-top: 10px;
+      transition: transform 0.3s;
+    }
+
+    .lugar img:hover {
+      transform: scale(1.05);
+    }
+
+    .video-comida {
+      margin-top: 20px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #4fa6c4;
+      color: white;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html">
+      <img src="casita.png" alt="Volver al inicio" class="icono-esquina izquierda">
+    </a>
+    <h1>Lugares de Comida</h1>
+    <img src="logo.jpg" alt="Logo Cuquío" class="icono-esquina derecha">
+  </header>
+
+  <section class="contenido">
+
+    <div class="lugar">
+      <h2>Tacos El Canelo</h2>
+      <p>
+        con los mejores burritos quesadillas tacos lonches y nachos para pedidos a domicilio #3327812368 y 3317982503. Están ubicados por el libramiento, junto a la gasolinera.
+        Son muy visitados por los locales por su sabor auténtico y rápido servicio.
+      </p>
+      <p><strong>Ubicación:</strong> Libramiento, Cuquío, Jalisco</p>
+      <img src="burro.jpg" alt="Tacos El Canelo">
+      <div class="video-comida">
+        <video controls>
+          <source src="canelo.mp4" type="video/mp4">
+          Tu navegador no soporta este video.
+        </video>
+      </div>
+    </div>
+
+    <div class="lugar">
+      <h2>Taquería Mariscal</h2>
+      <p>
+        Taquitos de: 
+barbacoa 
+Al pastor
+Chorizo
+Lengua
+Cabeza 
+ubicados en el mercado municipal de lunes a domingo, (descansan los jueves) y los días viernes, sábados y domingo, en el mercado de la plaza principal
+      </p>
+      <p><strong>Ubicación:</strong> Mercado, Cuquío, Jalisco</p>
+      <img src="maris.jpg" alt="Taquería Mariscal">
+    </div>
+
+    <div class="lugar">
+      <h2>Las Blancas</h2>
+      <p>
+        Una cenaduría tradicional en Cuquío que ofrece flautas, tostadas, sopes y enchiladas. 
+        Ideal para disfrutar en familia por su ambiente tranquilo y comida casera
+        .
+      </p>
+      <p><strong>Ubicación:</strong> Mercado, Cuquío, Jalisco</p>
+      <img src="blancas.jpg" alt="Las Blancas">
+    </div>
+
+  </section>
+
+  <footer>
+    © Cuquío Jalisco - Lugares de Comida
+  </footer>
+
+</body>
+</html>
